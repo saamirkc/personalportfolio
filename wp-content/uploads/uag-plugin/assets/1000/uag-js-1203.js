@@ -1,43 +1,14 @@
-document.addEventListener("DOMContentLoaded", function(){ var ssLinksParent = document.querySelector( '.uagb-block-71947d21' );
-ssLinksParent?.addEventListener( 'keyup', function ( e ) {
-var link = e.target.closest( '.uagb-ss__link' );
-if ( link && e.keyCode === 13 ) {
-	handleSocialLinkClick( link );
-}
-});
-
-ssLinksParent?.addEventListener( 'click', function ( e ) {
-var link = e.target.closest( '.uagb-ss__link' );
-if ( link ) {
-	handleSocialLinkClick( link );
-}
-});
-
-function handleSocialLinkClick( link ) {
-var social_url = link.dataset.href;
-var target = "";
-if ( social_url == "mailto:?body=" ) {
-	target = "_self";
-}
-var request_url = "";
-if ( social_url.indexOf("/pin/create/link/?url=") !== -1 ) {
-	request_url = social_url + encodeURIComponent( window.location.href ) + "&media=" + '';
-} else {
-	request_url = social_url + encodeURIComponent( window.location.href );
-}
-window.open( request_url, target );
-}
-window.addEventListener( 'load', function() {
-	UAGBCounter.init( '.uagb-block-332364cc', {"layout":"bars","heading":"Javascript","numberPrefix":"","numberSuffix":"","startNumber":0,"endNumber":75,"totalNumber":100,"decimalPlaces":0,"animationDuration":1500,"thousandSeparator":",","circleSize":230,"circleStokeSize":8,"isFrontend":true} );
+document.addEventListener("DOMContentLoaded", function(){ window.addEventListener( 'load', function() {
+	UAGBCounter.init( '.uagb-block-332364cc', {"layout":"bars","heading":"Java","numberPrefix":"","numberSuffix":"","startNumber":0,"endNumber":85,"totalNumber":100,"decimalPlaces":0,"animationDuration":1500,"thousandSeparator":",","circleSize":230,"circleStokeSize":8,"isFrontend":true} );
 });
 window.addEventListener( 'load', function() {
-	UAGBCounter.init( '.uagb-block-10a0bec4', {"layout":"bars","heading":"HTML","numberPrefix":"","numberSuffix":"","startNumber":0,"endNumber":67,"totalNumber":100,"decimalPlaces":0,"animationDuration":1500,"thousandSeparator":",","circleSize":230,"circleStokeSize":8,"isFrontend":true} );
+	UAGBCounter.init( '.uagb-block-10a0bec4', {"layout":"bars","heading":"Angular","numberPrefix":"","numberSuffix":"","startNumber":0,"endNumber":65,"totalNumber":100,"decimalPlaces":0,"animationDuration":1500,"thousandSeparator":",","circleSize":230,"circleStokeSize":8,"isFrontend":true} );
 });
 window.addEventListener( 'load', function() {
-	UAGBCounter.init( '.uagb-block-97a5b8ce', {"layout":"bars","heading":"CSS","numberPrefix":"","numberSuffix":"","startNumber":0,"endNumber":82,"totalNumber":100,"decimalPlaces":0,"animationDuration":1500,"thousandSeparator":",","circleSize":230,"circleStokeSize":8,"isFrontend":true} );
+	UAGBCounter.init( '.uagb-block-06b617b6', {"layout":"bars","heading":"Team Work","numberPrefix":"","numberSuffix":"","startNumber":0,"endNumber":100,"totalNumber":100,"decimalPlaces":0,"animationDuration":1500,"thousandSeparator":",","circleSize":230,"circleStokeSize":8,"isFrontend":true} );
 });
 window.addEventListener( 'load', function() {
-	UAGBCounter.init( '.uagb-block-06b617b6', {"layout":"bars","heading":"Photoshop","numberPrefix":"","numberSuffix":"","startNumber":0,"endNumber":93,"totalNumber":100,"decimalPlaces":0,"animationDuration":1500,"thousandSeparator":",","circleSize":230,"circleStokeSize":8,"isFrontend":true} );
+	UAGBCounter.init( '.uagb-block-fee2c863', {"layout":"bars","heading":"Problem Solving","numberPrefix":"","numberSuffix":"","startNumber":0,"endNumber":95,"totalNumber":100,"decimalPlaces":0,"animationDuration":1500,"thousandSeparator":",","circleSize":230,"circleStokeSize":8,"isFrontend":true} );
 });
 				window.addEventListener( 'DOMContentLoaded', () => {
 					const blockScope = document.querySelector( '.uagb-block-ed8b5234' );
@@ -79,7 +50,4 @@ window.addEventListener( 'load', function() {
 						}
 					} );
 				} );
-			window.addEventListener("DOMContentLoaded", function(){
-	UAGBForms.init( {"block_id":"18b3c5c9","reCaptchaEnable":false,"reCaptchaType":"v2","reCaptchaSiteKeyV2":"","reCaptchaSecretKeyV2":"","reCaptchaSiteKeyV3":"","reCaptchaSecretKeyV3":"","afterSubmitToEmail":"samir.kc.a20@gmail.com","afterSubmitCcEmail":"","afterSubmitBccEmail":"","afterSubmitEmailSubject":"Form Submission","sendAfterSubmitEmail":true,"confirmationType":"message","hidereCaptchaBatch":false,"captchaMessage":"Please fill up the above captcha.","confirmationUrl":""}, '.uagb-block-18b3c5c9', 1203 );
-});
- });
+			 });
