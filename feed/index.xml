@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 <image>
 	<url>https://saamirkc.github.io/personalportfolio/wp-content/uploads/2021/02/cropped-logo-footer-1-32x32.png</url>
@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>Hello world!</title>
-		<link>https://saamirkc.github.io/personalportfolio/hello-world/</link>
+		<link>https://saamirkc.github.io/personalportfolio/hello-world/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=hello-world</link>
 					<comments>https://saamirkc.github.io/personalportfolio/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
