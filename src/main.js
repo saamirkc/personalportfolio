@@ -67,7 +67,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const samir = new THREE.TextureLoader().load('/personalportfolio/sam.jpeg');
+const samir = new THREE.TextureLoader().load('/public/sam.jpeg');
 
 const sam = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: samir }));
 
@@ -75,8 +75,8 @@ scene.add(sam);
 
 // Moon
 
-const moonTexture = new THREE.TextureLoader().load('/personalportfolio/moon.jpg');
-const normalTexture = new THREE.TextureLoader().load('/personalportfolio/normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('/public/moon.jpg');
+const normalTexture = new THREE.TextureLoader().load('/public/normal.jpg');
 
 const moon = new THREE.Mesh(
     new THREE.SphereGeometry(3, 32, 32),
