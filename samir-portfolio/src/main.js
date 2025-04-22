@@ -155,35 +155,35 @@ window.addEventListener('resize', ()=>{
 });
 
 
-    // document.querySelectorAll('.project-cube').forEach((canvas) => {
-    //     const miniRenderer = new THREE.WebGLRenderer({ canvas, alpha: true });
-    //     const miniScene = new THREE.Scene();
-    //
-    //     const rect = canvas.getBoundingClientRect();
-    //     miniRenderer.setSize(rect.width, rect.height);
-    //     miniRenderer.setPixelRatio(window.devicePixelRatio);
-    //
-    //     const miniCamera = new THREE.PerspectiveCamera(70, rect.width / rect.height, 0.1, 1000);
-    //     miniCamera.position.z = 2;
-    //
-    //     const geometry = new THREE.BoxGeometry();
-    //     const material = new THREE.MeshStandardMaterial({ color: 0x00ffcc });
-    //     const cube = new THREE.Mesh(geometry, material);
-    //     miniScene.add(cube);
-    //
-    //     const light = new THREE.PointLight('#5d8ce2', 100);
-    //     light.position.set(5, 5, 5);
-    //     miniScene.add(light);
-    //
-    //
-    //     function animateMini() {
-    //         requestAnimationFrame(animateMini);
-    //         cube.rotation.x += 0.01;
-    //         cube.rotation.y += 0.01;
-    //         miniRenderer.render(miniScene, miniCamera);
-    //     }
-    //
-    //     animateMini();
+// document.querySelectorAll('.project-cube').forEach((canvas) => {
+//     const miniRenderer = new THREE.WebGLRenderer({ canvas, alpha: true });
+//     const miniScene = new THREE.Scene();
+//
+//     const rect = canvas.getBoundingClientRect();
+//     miniRenderer.setSize(rect.width, rect.height);
+//     miniRenderer.setPixelRatio(window.devicePixelRatio);
+//
+//     const miniCamera = new THREE.PerspectiveCamera(70, rect.width / rect.height, 0.1, 1000);
+//     miniCamera.position.z = 2;
+//
+//     const geometry = new THREE.BoxGeometry();
+//     const material = new THREE.MeshStandardMaterial({ color: 0x00ffcc });
+//     const cube = new THREE.Mesh(geometry, material);
+//     miniScene.add(cube);
+//
+//     const light = new THREE.PointLight('#5d8ce2', 100);
+//     light.position.set(5, 5, 5);
+//     miniScene.add(light);
+//
+//
+//     function animateMini() {
+//         requestAnimationFrame(animateMini);
+//         cube.rotation.x += 0.01;
+//         cube.rotation.y += 0.01;
+//         miniRenderer.render(miniScene, miniCamera);
+//     }
+//
+//     animateMini();
 //     // });
 // window.addEventListener('DOMContentLoaded', () => {
 //     document.querySelectorAll('.project-entry').forEach((entry) => {
